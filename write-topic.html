@@ -1,0 +1,8 @@
+<form method="post" ng-submit="topicEditCtrl.addTopic()">
+    <p>user:<input type="text" ng-model="topicEditCtrl.topic.author"></input></p>
+    <input type="text" ng-model="topicEditCtrl.topic.title"></input>
+    <br/>
+    <textarea ng-model="topicEditCtrl.topic.contents"></textarea>
+    <br/>
+    <input type="submit" value="post article"></input>
+</form>
